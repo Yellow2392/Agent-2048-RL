@@ -1,4 +1,4 @@
-# Agent 2028 - Reinforcement Learning Model
+# Agent 2048 - Reinforcement Learning Model
 
 This repository contains all information related to a small implementation of a reinforcement-learning-based agent to play the classic game **2048**. 
 
@@ -10,7 +10,7 @@ python run_2048.py --mode manual
 
 To run the agent use:
 ```bash
-python run_2048.py --mode agent --agent-module agent --agent-class Agent --episodes 50
+python run_2048.py --mode agent --agent-module solucion --agent-class Agent --episodes 50
 ```
 
 ## Training

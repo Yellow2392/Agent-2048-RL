@@ -27,7 +27,7 @@ class DQN_2048(nn.Module):
 
 # 2. Tu clase Agent para evaluación
 class Agent:
-    def __init__(self, model_path="best_agent_2048.pth"):
+    def __init__(self, model_path="best_agent_2048_10k.pth"):
         # Detectar dispositivo (Usa GPU si hay VRAM disponible, pero en CPU es rapidísimo igual)
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         
